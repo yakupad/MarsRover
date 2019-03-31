@@ -8,6 +8,6 @@ namespace MarsRover.Core.Repository
 {
     public interface IBaseRepository : IDisposable
     {
-        TEntity Create<TEntity>(Expression<Func<TEntity, bool>> expression) where TEntity : class;
+    
     }
 }
